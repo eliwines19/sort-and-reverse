@@ -45,12 +45,12 @@ var word = "hello"
 // }
 
 // reverse string with recursion
-var reverseString = (string) => {
-    if (string === "") {
-        return "";
-    } else {
-        return reverseString(string.substr(1)) + string.charAt(0);
-    }
-}
+// var reverseString = (string) => {
+//     if (string === "") {
+//         return "";
+//     } else {
+//         return reverseString(string.substr(1)) + string.charAt(0);
+//     }
+// }
 
-console.log(reverseString(word))
+// console.log(reverseString(word))
